@@ -2,5 +2,15 @@
   "name": "node-playground",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "execute": "nodemon index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "node": "^17.7.2",
+    "typescript": "^4.6.4",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0"
+  }
 }
